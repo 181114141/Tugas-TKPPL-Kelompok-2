@@ -47,7 +47,136 @@
 					<li><a href="https://reactnative.dev/docs/getting-started">reactnative.dev</a></li>
 				</ul>
 			</section>
+			<section data-auto-animate
+				data-background-image="https://digitalsynopsis.com/wp-content/uploads/2017/07/beautiful-color-ui-gradients-backgrounds-sea-blue.png">
+				<h2>Cara Kerja React ?</h2>
+				<div class="r-stack">
+					<pre class="fragment current-visible" data-fragment-index="0">
+						<code class="hljs" data-trim data-line-numbers>
+							<script type="text/template">
+							import React from 'react';
+	
+							class MyComponent extends React.Component {
+								render() {
+								  return <h1>Hello world</h1>;
+								}
+							};
+							</script>
+						</code>
+					</pre>
+					<pre class="fragment current-visible" data-fragment-index="1">
+						<code class="hljs" data-trim data-line-numbers>
+							<script type="text/template">
+								import React from 'react';
+	
+								function MyComponent() {
+									return (
+										<h1>Hello world</h1>;
+									)
+								};
+		
+								const MyComponent = () => {
+									return (
+										<h1>Hello world</h1>;
+									)
+								};
+							</script>
+						</code>
+					</pre>
+					<pre class="fragment current-visible" data-fragment-index="2">
+						<code class="hljs" data-trim data-line-numbers>
+							<script type="text/template">
+							import ReactDOM from 'react-dom';
+	
+							ReactDOM.render(
+								<MyComponent />,
+								document.querySelector("body")
+							)
+						</script>
+						</code>
+					</pre>
+				</div>
+			</section>
+			<section data-auto-animate
+				data-background-image="https://digitalsynopsis.com/wp-content/uploads/2017/07/beautiful-color-ui-gradients-backgrounds-sea-blue.png">
+				<h2>Fitur React ?</h2>
+			</section>
+			<section data-auto-animate
+				data-background-image="https://digitalsynopsis.com/wp-content/uploads/2017/07/beautiful-color-ui-gradients-backgrounds-sea-blue.png">
+				<h2>Fitur React ?</h2>
+				<ul>
+					<li>props</li>
+					<p>props ini adalah model atau object yang memiliki fungsi untuk menyimpan dan melempar data
+						antar
+						componet</p>
+				</ul>
+			</section>
+			<section data-auto-animate
+				data-background-image="https://digitalsynopsis.com/wp-content/uploads/2017/07/beautiful-color-ui-gradients-backgrounds-sea-blue.png">
+				<h2>Fitur React ?</h2>
+				<p>Tanpa props</p>
+				<pre>
+							<code class="hljs" data-trim data-line-numbers>
+								<script type="text/template">
+									import React from 'react';
+									import ReactDOM from 'react-dom';
+								
+									const MyComponent = () => {
+										return (
+											<h1>Hello world</h1>;
+										)
+									};
 
+									ReactDOM.render(
+										<MyComponent />,
+											document.querySelector("body")
+									)
+									
+								</script>
+							</code>
+						</pre>
+			</section>
+			<section data-auto-animate
+				data-background-image="https://digitalsynopsis.com/wp-content/uploads/2017/07/beautiful-color-ui-gradients-backgrounds-sea-blue.png">
+				<h2>Fitur React ?</h2>
+				<p>dengan props</p>
+				<pre>
+								<code class="hljs" data-trim data-line-numbers>
+									<script type="text/template">
+										import React from 'react';
+										import ReactDOM from 'react-dom';
+	
+										const MyComponent = (props) => {
+											return (
+												<h1>{props.kata}</h1>;
+											)
+										};
+
+										ReactDOM.render(
+											<div>
+												<MyComponent kata = "Hello world"/>
+												<MyComponent kata = "Hello Apa Kabar"/>
+												<MyComponent kata = "Hello ai yem inde water"/>
+											</div>,
+												document.querySelector("body")
+										)
+										
+									</script>
+								</code>
+							</pre>
+			</section>
+			<section data-auto-animate
+				data-background-image="https://digitalsynopsis.com/wp-content/uploads/2017/07/beautiful-color-ui-gradients-backgrounds-sea-blue.png">
+				<h2>Fitur React ?</h2>
+				<ul>
+					<li class="fragment fade-up">lifecycle</li>
+					<li class="fragment fade-up">state</li>
+					<li class="fragment fade-up">hooks</li>
+					<li class="fragment fade-up">redux</li>
+					<li class="fragment fade-up">react router</li>
+					<li class="fragment fade-up">dan lain sebagainya</li>
+				</ul>
+			</section>
 		</div>
 	</div>
 
